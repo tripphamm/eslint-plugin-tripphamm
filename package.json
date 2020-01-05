@@ -1,6 +1,6 @@
 {
   "name": "@tripphamm/eslint-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tripp Hammond",
   "description": "Eslint plugin for my projects",
   "repository": "https://github.com/tripphamm/eslint-plugin-tripphamm",
