@@ -27,8 +27,6 @@ module.exports = {
     'prettier/@typescript-eslint',
   ],
   rules: {
-    // allow console.log to notify users about errors
-    'no-console': 'off',
     // throws false positives when used with typescript
     'no-unused-vars': 'off',
     // allow typescript to infer return type of function
@@ -37,16 +35,8 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     // allow empty interfaces for semantic/placeholder purposes
     '@typescript-eslint/no-empty-interface': 'off',
-    // sometimes values really can be `any`
-    '@typescript-eslint/no-explicit-any': 'off',
   },
   overrides: [
-    {
-      files: ['*.js', '*.jsx'],
-      rules: {
-        'no-unused-vars': 'warn',
-      },
-    },
     {
       files: ['*.spec.js', '*.spec.ts', '*.spec.jsx', '*.spec.tsx'],
       env: {
@@ -60,17 +50,6 @@ module.exports = {
         // tries to type-check the first arg for `describe` but doesn't allow string-typed variables :eye_roll:
         // let's leave the type-checking to TypeScript
         'jest/valid-describe': 'off',
-      },
-    },
-    {
-      // any files in the a /scripts/ folder will be nodejs scripts
-      files: ['scripts/**/*'],
-      env: {
-        node: true,
-      },
-      rules: {
-        // allow `require` imports
-        '@typescript-eslint/no-var-requires': 'off',
       },
     },
   ],

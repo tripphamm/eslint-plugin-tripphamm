@@ -1,23 +1,47 @@
-# @tripphamm/eslint-plugin
+# @ejhammond/eslint-plugin
 
 ## Usage
 
-> This package is included in [TrippKit](https://github.com/tripphamm/trippkit) but can also be installed on its own.
+> This package is included in [@ejhammond/JSKit](https://github.com/ejhammond/jskit) but can also be installed on its own.
 
 ```
-yarn add @tripphamm/eslint-plugin
+yarn add @ejhammond/eslint-plugin
 ```
 
-Depending on your project, extend `react`, or `node`
+Depending on the project, extend `react`, or `node`.
 
 ```js
 // .eslintrc.js
 
 module.exports = {
   extends: [
-    "plugin:@tripphamm/react",
+    'plugin:@ejhammond/react',
     // or
-    "plugin:@tripphamm/node"
-  ]
+    'plugin:@ejhammond/node',
+  ],
 };
 ```
+
+## Rules
+
+### Base
+
+ESLint recommended and TypeScript-ESLint recommended
+Import
+Prettier
+Jest (\*.spec.{js,jsx,ts,tsx})
+
+### React
+
+Base +
+
+React recommended
+React Hooks
+JSX A11y
+
+### Node
+
+Base +
+
+Allows `require`
+Allows `console.log`
