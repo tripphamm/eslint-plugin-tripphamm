@@ -1,9 +1,9 @@
 {
-  "name": "@tripphamm/eslint-plugin",
-  "version": "1.4.6",
-  "author": "Tripp Hammond",
+  "name": "@ejhammond/eslint-plugin",
+  "version": "1.0.1",
+  "author": "EJ Hammond",
   "description": "Eslint plugin for my projects",
-  "repository": "https://github.com/tripphamm/eslint-plugin-tripphamm",
+  "repository": "https://github.com/ejhammond/eslint-plugin-ejhammond",
   "publishConfig": {
     "access": "public"
   },
