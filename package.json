@@ -13,8 +13,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "tk-lint",
-    "release": "tk-release",
+    "lint": "jskit-lint",
+    "release": "jskit-release",
     "format": "jskit-format"
   },
   "keywords": [
