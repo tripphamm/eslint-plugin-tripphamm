@@ -1,1 +1,1 @@
-module.exports = require('@ejhammond/jskit/configs/husky');
+module.exports = require('@ejhammond/jskit/configs/library/husky');

@@ -1,1 +1,1 @@
-module.exports = require('@ejhammond/jskit/configs/prettier');
+module.exports = require('@ejhammond/jskit/configs/shared/prettier');

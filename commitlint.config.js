@@ -1,1 +1,1 @@
-module.exports = require('@ejhammond/jskit/configs/commitlint');
+module.exports = require('@ejhammond/jskit/configs/library/commitlint');

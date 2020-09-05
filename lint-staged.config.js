@@ -1,1 +1,1 @@
-module.exports = require('@ejhammond/jskit/configs/lint-staged');
+module.exports = require('@ejhammond/jskit/configs/shared/lint-staged');
