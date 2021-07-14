@@ -23,8 +23,6 @@ module.exports = {
     // enables the prettier plugin (enables eslint detecting prettier errors)
     // sets the "prettier/prettier" rule to "error" (enables red-highlighting of prettier errors)
     'plugin:prettier/recommended',
-    // further disable linting rules from @typescript-eslint so that prettier can handle them
-    'prettier/@typescript-eslint',
   ],
   rules: {
     // throws false positives when used with typescript
