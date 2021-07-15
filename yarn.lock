@@ -166,10 +166,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.1.2.tgz#d05f66db03e3a3638a654e8badf2deb489eb220d"
   integrity sha512-r3fwVbVH+M8W0qYlBBZFsUwKe6NT5qvz+EmU7sr8VeN1cQ63z+3cfXyTo7WGGEMEgKiT0jboNAK3b1FZp8k9LQ==
 
-"@ejhammond/jskit@^2.0.0":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@ejhammond/jskit/-/jskit-2.0.4.tgz#3fd092dc3935a562803b4b41dd3bcea3508a0244"
-  integrity sha512-P/JmT/ZFDSxUbfecTs7mxnA2L8PX+8GAIawh1Z4AbcuEoUaFiMVrEIZCY9VIpEBOwUqT9tQhxDiy1UnA4SJ+ag==
+"@ejhammond/jskit@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ejhammond/jskit/-/jskit-3.0.0.tgz#92dc795ba4666caa346348c649fb7d9b0a7a7fbe"
+  integrity sha512-x9hIplvbVx7FEqX8ylLa1Hocf+xSMeNlBh59IynCXr7//aobqSa9CyiHEe7Rtb/JyyiMIlNHfMiyFuoBvwhMIg==
   dependencies:
     "@commitlint/cli" "^9.1.2"
     "@semantic-release/commit-analyzer" "^6.3.3"
